@@ -30,4 +30,9 @@ public class MainActivity extends Activity {
 		startActivity(intent);
 	}
 
+	public void btnListSameUrlClick(View v)
+	{
+		Intent intent = new Intent(this, ImageListSameUrl.class);
+		startActivity(intent);
+	}
 }

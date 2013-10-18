@@ -2,11 +2,16 @@ package com.rsv.webimageview.example;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 
 import com.rsv.widget.WebImageView;
 import com.rsv.widget.WebImageView.WebImageProgressListener;
 
+/**
+ * 
+ *
+ */
 public class ImageJava extends Activity {
 
 	@Override
@@ -46,6 +51,14 @@ public class ImageJava extends Activity {
 
 			}
 		});
+
+		WebImageView imgView = new WebImageView(this);
+
+		imgView.setWebImageUrl("https://www.google.com/images/srpr/logo11w.png");
+
+		LinearLayout root = (LinearLayout) this.findViewById(R.id.rootLayout);
+
+		root.addView(imgView);
 	}
 
 }

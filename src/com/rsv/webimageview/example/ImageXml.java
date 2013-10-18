@@ -8,6 +8,10 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.widget.ProgressBar;
 
+/**
+ * WebImageView defined in layout xml
+ *
+ */
 public class ImageXml extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {

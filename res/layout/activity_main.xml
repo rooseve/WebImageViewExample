@@ -29,5 +29,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/btnList" android:onClick="btnListClick"/>
+    
+     <Button
+        android:id="@+id/btnSameUrlList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnListSameUrl" android:onClick="btnListSameUrlClick"/>
 
 </LinearLayout>

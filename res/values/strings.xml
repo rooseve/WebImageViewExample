@@ -7,5 +7,6 @@
     <string name="btnXml">WebImageView in XML</string>
     <string name="btnJava">WebImageView in Java</string>
     <string name="btnList">WebImageView in ListView</string>
+    <string name="btnListSameUrl">WebImageView in ListView(Same Url)</string>
 
 </resources>

@@ -30,6 +30,10 @@
             android:name="com.rsv.webimageview.example.ImageXml"
             android:label="@string/app_name" >
         </activity>
+         <activity
+            android:name="com.rsv.webimageview.example.ImageListSameUrl"
+            android:label="@string/app_name" >
+        </activity>
         <activity
             android:name="com.rsv.webimageview.example.MainActivity"
             android:label="@string/title_activity_main" >
