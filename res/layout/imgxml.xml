@@ -10,6 +10,7 @@
         android:layout_width="fill_parent"
         android:layout_height="100dp"
         android:src="@drawable/ic_launcher"
+        app:webImageExpireInSecs="@integer/webImgExpire"
         app:webImageUrl="@string/test_img_url" />
 
     <ProgressBar

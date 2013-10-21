@@ -10,7 +10,7 @@ import android.widget.ProgressBar;
 
 /**
  * WebImageView defined in layout xml
- *
+ * 
  */
 public class ImageXml extends Activity {
 	@Override
@@ -19,8 +19,10 @@ public class ImageXml extends Activity {
 		setContentView(R.layout.imgxml);
 
 		WebImageView timg = (WebImageView) this.findViewById(R.id.webImage);
-		
-		LogUtils.i(this, timg.getWebImageUrl());
+
+		LogUtils.i(this, "url: " + timg.getWebImageUrl());
+
+		LogUtils.i(this, "expire: " + timg.getWebImageExpireInSecs());
 
 		final ProgressBar pbar = (ProgressBar) this.findViewById(R.id.progressBarHz);
 
@@ -37,7 +39,6 @@ public class ImageXml extends Activity {
 				pbar.setProgress(progress);
 			}
 
-			
 			@Override
 			public void onLoad(WebImageView view) {
 
