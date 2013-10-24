@@ -7,7 +7,7 @@ WebImageViewExample
 
 Load concurrently, and with loading progress bars.
 
-![WebImageView in ListView](docs/images/list.png) 
+![WebImageView in ListView](https://raw.github.com/rooseve/WebImageViewExample/master/docs/images/list.png) 
 
 Please reference [here](https://github.com/rooseve/WebImageView) for more details.
 
